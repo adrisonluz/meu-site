@@ -1,0 +1,114 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: orange;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.App {
+  text-align: center;
+  background-color: beige;
+}
+
+#menu {
+  padding: 10px 0;
+}
+
+#menu li {
+  color: #fff;
+  display: inline-block;
+  padding: 8px 10px;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  padding: 80px;
+}
+
+.bggray {
+  background: #ccc;
+}
+
+.bgwhite {
+  background: #fff;
+}
+
+#banner {
+  padding: 0;
+}
+
+#banner img {
+  width: 100%;
+}
+
+.bloco-titulo, .subbloco-titulo {
+  border-left: 4px solid #37352f;
+  text-align: left;
+  padding-left: 10px;
+  margin: 30px 0px;
+}
+
+.subbloco-titulo {
+  margin-top: 0px;
+}
+
+.bloco-conteudo {
+  margin: 10px 0px;
+}
+
+.bloco-conteudo p {
+  text-align: justify;
+  margin: 10px 0px;
+}
+
+.w50 {
+  width: 49%;
+  float: left;
+  margin: 0px 1% 0px 0px;
+}
+
+.wright {
+  margin: 0px 0px 0px 1%;
+}
+
+footer {
+  background-color: #222;
+  width: 100%;
+  padding: 40px 0;
+}
+
+footer p {
+  color: #fff;
+}
+
+@media all and (max-width: 600px){
+  section {
+    padding: 10px;
+  }
+
+  .w50 {
+    width: 100%;
+    float: left;
+    margin: 0px 0px 15px;
+  }
+}
