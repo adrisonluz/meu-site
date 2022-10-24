@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
+
 * {
   list-style: none;
   text-decoration: none;
   padding: 0;
   margin: 0;
   border: 0;
+  font-family: 'Inconsolata', monospace;
 }
 
 a {
@@ -20,6 +23,10 @@ img {
 
 .clearfix {
   clear: both;
+}
+
+.tright {
+  text-align: right;
 }
 
 .App {
@@ -46,7 +53,7 @@ section {
 }
 
 .bggray {
-  background: #ccc;
+  background: #e1e1e1;
 }
 
 .bgwhite {
@@ -76,7 +83,7 @@ section {
   margin: 10px 0px;
 }
 
-.bloco-conteudo p {
+.bloco-titulo p, .bloco-conteudo p {
   text-align: justify;
   margin: 10px 0px;
 }
@@ -89,6 +96,46 @@ section {
 
 .wright {
   margin: 0px 0px 0px 1%;
+}
+
+#container-empatia {
+  position: relative;
+}
+
+.empatia-destaque {
+  position: absolute;
+  top: 280px;
+  left: 35%;
+  width: 30%;
+}
+
+.empatia-destaque img {
+  width: 100%;
+}
+
+.bloco-empatia {
+  border: 2px solid #37352f;
+  padding: 2%;
+  width: 45.5%;
+  min-height: 315px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+
+.bloco-empatia h3, .bloco-empatia p {
+  text-align: left;
+  max-width: 70%;
+  clear: both;
+}
+
+.bloco-empatia.tright h3, .bloco-empatia.tright p {
+  text-align: right;
+  float: right;
+}
+
+.bloco-empatia span {
+  color: red;
 }
 
 footer {
@@ -110,5 +157,24 @@ footer p {
     width: 100%;
     float: left;
     margin: 0px 0px 15px;
+  }
+
+  .bloco-empatia, .bloco-empatia.tright {
+    width: 92%;
+    padding: 20px 4%;
+  }
+
+  .bloco-empatia h3, .bloco-empatia p, .bloco-empatia.tright h3, .bloco-empatia.tright p {
+    text-align: justify;
+    max-width: 100%;
+    float: none;
+  }
+
+  .bloco-empatia h3 {
+    margin-bottom: 20px;
+  }
+
+  .empatia-destaque {
+    display: none;
   }
 }

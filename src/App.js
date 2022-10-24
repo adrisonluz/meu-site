@@ -5,6 +5,7 @@ import Menu from './components/layout/menu'
 
 import banner from './assets/img/banner.jpg'
 import foto from './assets/img/foto.jpg'
+import retrato from './assets/img/retrato.png'
 
 function App() {  
   return (
@@ -47,19 +48,87 @@ function App() {
         </section>
 
         <section id="empatia" className="bggray">
-          Empatia
+          <div className='bloco-titulo'>
+            <h2>Mapa de empatia</h2>
+            <p>Gostaria de utilizar deste recurso onde desenhamos o perfil de uma persona, cliente ou público-alvo para tentar explicar um pouco a minha personalidade, sentimentos e meneira de pensar.</p>
+          </div>
+
+          <div className='bloco-conteudo'>
+            <div id="container-empatia">
+              <div className='bloco-empatia'>
+                <h3>o que eu <span>Penso e Sinto</span></h3>
+                <p>Preciso aperfeiçoar minhas habilidades profissionais, principalmente o inglês.</p>
+                <p>Penso, observo, analiso e sinto o mundo e pessoas ao meu redor.</p>
+                <p>Pessoas antes de qualquer coisa, incluindo colegas, liderados, clientes e usuários.</p>
+                <p>Curto e incentivo a lideraça horizontal onde o pensamento e decisões coletivas devem ser icentivados.</p>
+              </div>
+
+              <div className='bloco-empatia tright'>
+                <h3>o que eu <span>Vejo</span></h3>
+                <p>Família, mais caseiro.</p>
+                <p>Músico, o violão está sempre ao alcance da mão.</p>
+                <p>Pets, sempre há um gato ou cachorro próximo.</p>
+                <p>Olho videos de humor, games, tecnologia e música.</p>
+                <p>Profissionalmente: videos de Scrum e agilidade em geral.</p>
+              </div>
+
+              <div className='bloco-empatia'>
+                <h3>o que eu <span>Escuto</span></h3>
+                  <p>Minha esposa é a principal influência em minhas decisões.</p>
+                  <p>Liderança religiosa e profissional.</p>
+                  <p>Busco conhecimento principalmente no Youtube e Google.</p>
+                  <p>Pessoas em geral, acredito que todo mundo tem algo à ensinar.</p>
+                  <p>Busco crescimento espiritual em ceminários, palestras e sermões.</p>
+              </div>
+              
+              <div className='bloco-empatia tright'>
+                <h3>o que eu <span>Falo e Faço</span></h3>
+                  <p>Estou sempre de bom humor.</p>
+                  <p>Organizado, criativo, resiliente e adaptavel.</p>
+                  <p>Me divirto com música, games, filmes e séries.</p>
+                  <p>Sou autodidata, muita facilidade em aprender e estou sempre atrás de coisas novas.</p>
+                  <p>Gosto de arriscar e improvisar.</p>
+                  <p>Busco ajudar à quem precisa, sempre envolvido em projetos sociais na comunidade.</p>
+              </div>
+
+              <div className='bloco-empatia'>
+                <h3>quais são minhas <span>Dores</span></h3>
+                  <p>Nem sempre tenho espaço para criar e colocar ideias em prática.</p>
+                  <p>Falta recursos e tempo para fazer tudo o que eu gostaria de fazer.</p>
+              </div>
+              
+              <div className='bloco-empatia tright'>
+                <h3>quais são meus <span>Objetivos</span></h3>
+                  <p>Quero deixar um legado, ajudar pessoas, não ser "só mais um na multidão".</p>
+                  <p>Quero trabalhar por amor, não depender do trabalho para sobreviver.</p>
+                  <p>Conhecer outros países e outras culturas.</p>
+              </div>
+
+              <div className='empatia-destaque'>
+                <img src={retrato} title='' alt='' />
+              </div>
+
+              <div className='clearfix'></div>
+            </div>
+          </div>
         </section>
 
         <section id="habilidades" className="bgwhite">
           Habilidades
+          <div className='bloco-titulo'></div>
+          <div className='bloco-conteudo'></div>
         </section>
 
         <section id="experiencia" className="bggray">
           Experiência Profissional
+          <div className='bloco-titulo'></div>
+          <div className='bloco-conteudo'></div>
         </section>
 
         <section id="contato" className="bgwhite">
           Contato
+          <div className='bloco-titulo'></div>
+          <div className='bloco-conteudo'></div>
         </section>
       </main>
 
